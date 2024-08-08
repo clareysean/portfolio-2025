@@ -39,7 +39,6 @@ section{
     gap: 10px;
 }
 .name-card{
-    position: inline-block;
     color: #222222;
     margin: 0;
     min-width: 320px;
@@ -61,14 +60,16 @@ footer{
 }
 
 @media (max-width: 830px){
-    .name-card{
-        top: 20px;
-        left: 50px;
-    }
     body{
         margin: 15px;
     }
     footer{
         padding: 10px 0 5px 14px;
+    }
+    .flex-container {
+        margin: 40px 0 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
     }
 }
