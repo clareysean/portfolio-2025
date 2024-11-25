@@ -15,7 +15,7 @@
 // async function getPlaylistVideoIds() {
 //   const ids = [];
 //   const response = await fetch(
-//     `https://www.googleapis.com/youtube/v3/playlistItems?playlistId=PLGaeK8szXiDUMKpOxbEnSVKbVKHg6XZwG&key=AIzaSyA6xXpqDq-NcTWirKYe9hip4d-FQf2QkQM&part=contentDetails&maxResults=50`
+//     `https://www.googleapis.com/youtube/v3/playlistItems?playlistId=PLGaeK8szXiDUMKpOxbEnSVKbVKHg6XZwG&key=XXX&part=contentDetails&maxResults=50`
 //   );
 //   const data = await response.json();
 //     if (data.items && Array.isArray(data.items)) {
@@ -31,7 +31,7 @@
 
 // async function appendVideoPlayers(ids, videoContainer) {
 //   for (const id of ids) {
-//     const response = await fetch(`https://www.googleapis.com/youtube/v3/videos?key=AIzaSyA6xXpqDq-NcTWirKYe9hip4d-FQf2QkQM&part=player&id=${id}`);
+//     const response = await fetch(`https://www.googleapis.com/youtube/v3/videos?key=XXX&part=player&id=${id}`);
 //     const data = await response.json();
 
 //     videoContainer.innerHTML += data.items[0].player.embedHtml
@@ -42,7 +42,7 @@
 
 // async function getPlaylistId() {
 //   const response = await fetch(
-//     `https://www.googleapis.com/youtube/v3/playlists?part=id,contentDetails&channelId=UCpbO_ooq-dBj1EA-pspXc0g&key=AIzaSyA6xXpqDq-NcTWirKYe9hip4d-FQf2QkQM`
+//     `https://www.googleapis.com/youtube/v3/playlists?part=id,contentDetails&channelId=UCpbO_ooq-dBj1EA-pspXc0g&key=XXX`
 //   );
 //   const data = await response.json();
 //   console.log(data);
